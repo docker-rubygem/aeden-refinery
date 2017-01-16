@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.9.5
+ENV VERSION=0.9.13
 
 RUN gem install aeden-refinery --version ${VERSION} --no-format-exec
 
